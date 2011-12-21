@@ -16,3 +16,15 @@ xcuserdata
 # svn & cvs
 .svn
 CVS
+
+
+*.java
+*.jar
+*.class
+*.html
+applet/imageSort.pde
+applet/loading.gif
+generated/compiler/l.jpeg
+.classpath
+.gitignore
+.project
