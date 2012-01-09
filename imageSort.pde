@@ -19,7 +19,7 @@ void setup() {
 	pixelCount=b.width*b.height;
 	// printImageHexValues();
 
-	//outputImage = basicSort(b);
+	outputImage = basicSort(b);
 	//PROBLEM these three act identically
 	//outputImage = powerAddSort(b);
 	//outputImage = byteHashSort(b);
@@ -32,7 +32,7 @@ void setup() {
 
 	baseName=targetImage.substring(0,targetImage.indexOf("."));
 
-	//noLoop();	// Makes draw() only run once
+	noLoop();	// Makes draw() only run once
 }
 
 
